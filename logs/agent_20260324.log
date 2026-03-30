@@ -1,0 +1,12 @@
+2026-03-24 12:57:28,365 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-24 12:57:28,365 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 本地天气
+2026-03-24 12:57:31,507 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-24 12:57:31,507 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-24 12:57:32,445 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-24 12:57:32,489 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-24 12:57:32,490 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 郑州市
+2026-03-24 12:57:35,375 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-03-24 12:57:35,376 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '郑州市'}
+2026-03-24 12:57:35,630 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-03-24 12:57:36,281 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-24 12:57:36,282 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市郑州市天气为阴，气温16摄氏度，空气湿度54%，西北风≤3级，数据发布时间2026-03-24 12:30:46。
